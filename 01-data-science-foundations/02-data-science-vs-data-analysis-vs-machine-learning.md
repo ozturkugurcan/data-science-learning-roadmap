@@ -1,268 +1,130 @@
-\# Data Science vs Data Analysis vs Machine Learning
+# Data Science vs Data Analysis vs Machine Learning
 
+## 1. Giriş
 
+Veri bilimi öğrenmeye başlayanların en çok karıştırdığı üç kavram şunlardır:
 
-\## 1. Giriş
+- Data Science
+- Data Analysis
+- Machine Learning
 
+Bu üç kavram birbiriyle bağlantılıdır, ancak aynı şeyi ifade etmez.
 
+## 2. Data Analysis (Veri Analizi)
 
-Veri bilimi öğrenmeye başlayanların en çok karıştırdığı üç kavram:
+**Data Analysis**, veriyi inceleme, temizleme, düzenleme ve yorumlama sürecidir.
 
+Temel amacı:
+- veriyi anlamak
+- geçmişte ne olduğunu görmek
+- rapor ve özet bilgi üretmek
 
+Örnek sorular:
+- Geçen ay satışlar ne kadardı?
+- En çok hangi ürün satıldı?
+- Müşteriler hangi şehirlerde yoğunlaştı?
 
-\* Data Science
+Veri analizi sürecinde sık kullanılan işlemler:
+- data cleaning
+- filtering
+- sorting
+- grouping
+- visualization
 
-\* Data Analysis
+> Data Analysis, veriyi anlamaya odaklanır.
 
-\* Machine Learning
+## 3. Machine Learning
 
+**Machine Learning**, veriden öğrenen ve tahmin üreten modeller kurma alanıdır.
 
+Temel amacı:
+- gelecekte ne olacağını tahmin etmek
+- otomatik karar mekanizmaları geliştirmek
+- örüntüleri tespit etmek
 
-Bu üçü birbirine bağlıdır ancak aynı şey değildir.
+Örnek sorular:
+- Bu müşteri satın alma yapar mı?
+- Bu işlem dolandırıcılık olabilir mi?
+- Bu evin tahmini fiyatı nedir?
 
+Machine Learning içinde sık karşılaşılan yöntemler:
+- classification
+- regression
+- clustering
 
+> Machine Learning, tahmin ve model üretmeye odaklanır.
 
-\---
+## 4. Data Science
 
+**Data Science**, veriyle ilgili tüm süreci kapsayan daha geniş bir alandır.
 
+Bu sürecin içinde şunlar yer alabilir:
+- veri toplama
+- veri temizleme
+- veri analizi
+- modelleme
+- sonuçları yorumlama
+- karar desteği üretme
 
-\## 2. Data Analysis (Veri Analizi)
+Yani Data Science, yalnızca analiz yapmak ya da yalnızca model kurmak değildir. Uçtan uca bir problem çözme yaklaşımıdır.
 
+> Data Science, büyük çerçeveyi ifade eder.
 
+## 5. Aralarındaki İlişki
 
-\*\*Data Analysis\*\*, veriyi inceleme, temizleme ve yorumlama sürecidir.
+Bu üç kavram arasındaki ilişkiyi doğru anlamak çok önemlidir:
 
+- Data Analysis, Data Science'ın önemli bir parçasıdır.
+- Machine Learning, Data Science içinde kullanılan güçlü tekniklerden biridir.
+- Data Science, bu iki alanı da içine alan daha geniş bir yapıdır.
 
+Başka bir deyişle:
 
-Amaç:
+- her Machine Learning çalışması Data Science değildir
+- her Data Analysis çalışması Machine Learning içermez
+- Data Science, gerektiğinde hem analiz hem de modelleme kullanabilir
 
+## 6. Basit Karşılaştırma
 
+| Alan | Temel Amaç | Temel Soru |
+|------|------------|------------|
+| Data Analysis | Veriyi anlamak | Ne oldu? |
+| Machine Learning | Tahmin yapmak | Ne olacak? |
+| Data Science | Tüm süreci yönetmek | Veriyi kullanarak nasıl değer üretiriz? |
 
-\* veriyi anlamak
+## 7. Gerçek Hayat Örneği
 
-\* geçmişte ne olduğunu görmek
+Bir e-ticaret şirketi üzerinden düşünelim.
 
-\* rapor üretmek
+### Data Analysis
+Şirket, geçen ayki satış verilerini inceler:
+- hangi ürünler daha çok satıldı
+- hangi şehirlerde satış arttı
+- müşteri davranışlarında nasıl değişimler oldu
 
+### Machine Learning
+Şirket, hangi müşterilerin satın alma yapma ihtimalinin daha yüksek olduğunu tahmin etmeye çalışır.
 
+### Data Science
+Şirket, veri toplama aşamasından modelin kullanılmasına kadar tüm süreci yönetir ve iş kararlarına katkı sağlar.
 
-\### Örnek sorular:
+Bu örnek, üç kavram arasındaki farkı pratikte daha net gösterir.
 
+## 8. Sık Karıştırılan Noktalar
 
+Bu alanda yeni olanlar genelde şu hataları yapar:
 
-\* Geçen ay satışlar ne kadardı?
+- Data Science'ı sadece Machine Learning sanmak
+- Data Analysis'i sadece grafik çizmek olarak görmek
+- Machine Learning'in veri hazırlama olmadan çalışacağını düşünmek
+- Bu üç alanı tamamen ayrı dünyalar gibi değerlendirmek
 
-\* En çok hangi ürün satıldı?
+Aslında bunlar birbirinden kopuk değil, birbirini tamamlayan yapılardır.
 
-\* Müşteriler hangi şehirde yoğun?
+## 9. Kısa Özet
 
+- **Data Analysis**, veriyi anlama ve yorumlama sürecidir.
+- **Machine Learning**, veriden öğrenerek tahmin yapan modeller kurar.
+- **Data Science**, veriyle ilgili tüm süreci kapsayan daha geniş bir alandır.
 
-
-\### Kullanılan işlemler:
-
-
-
-\* veri temizleme (data cleaning)
-
-\* filtreleme
-
-\* gruplama (group by)
-
-\* görselleştirme
-
-
-
-> Data Analysis = Veriyi anlamak
-
-
-
-\---
-
-
-
-\## 3. Machine Learning
-
-
-
-\*\*Machine Learning\*\*, veriden öğrenerek tahmin yapan modeller kurma sürecidir.
-
-
-
-Amaç:
-
-
-
-\* geleceği tahmin etmek
-
-\* otomatik karar sistemleri kurmak
-
-
-
-\### Örnek sorular:
-
-
-
-\* Bu müşteri satın alma yapar mı?
-
-\* Bu işlem fraud (dolandırıcılık) mı?
-
-\* Bu evin fiyatı ne olur?
-
-
-
-\### Kullanılan yöntemler:
-
-
-
-\* classification
-
-\* regression
-
-\* clustering
-
-
-
-> Machine Learning = Tahmin yapmak
-
-
-
-\---
-
-
-
-\## 4. Data Science
-
-
-
-\*\*Data Science\*\*, veri ile ilgili tüm süreci kapsayan geniş bir alandır.
-
-
-
-İçinde şunları barındırır:
-
-
-
-\* veri toplama
-
-\* veri analizi
-
-\* makine öğrenmesi
-
-\* sonuçların yorumlanması
-
-
-
-> Data Science = Büyük çerçeve
-
-
-
-\---
-
-
-
-\## 5. Aralarındaki İlişki
-
-
-
-En önemli nokta:
-
-
-
-\* Data Analysis → Data Science'ın bir parçasıdır
-
-\* Machine Learning → Data Science içinde kullanılan bir tekniktir
-
-
-
-\---
-
-
-
-\## 6. Basit Karşılaştırma
-
-
-
-| Alan             | Amaç           | Soru           |
-
-| ---------------- | -------------- | -------------- |
-
-| Data Analysis    | Veriyi anlamak | Ne oldu?       |
-
-| Machine Learning | Tahmin yapmak  | Ne olacak?     |
-
-| Data Science     | Tüm süreç      | Ne yapmalıyız? |
-
-
-
-\---
-
-
-
-\## 7. Gerçek Hayat Örneği
-
-
-
-Bir e-ticaret şirketi düşün:
-
-
-
-\### Data Analysis:
-
-
-
-\* geçen ay satışları analiz eder
-
-
-
-\### Machine Learning:
-
-
-
-\* hangi müşterinin satın alacağını tahmin eder
-
-
-
-\### Data Science:
-
-
-
-\* tüm süreci yönetir ve karar üretir
-
-
-
-\---
-
-
-
-\## 8. Sık Karıştırılan Noktalar
-
-
-
-\* Data Science sadece Machine Learning değildir
-
-\* Data Analysis sadece grafik çizmek değildir
-
-\* Machine Learning veri analizi olmadan çalışmaz
-
-
-
-\---
-
-
-
-\## 9. Özet
-
-
-
-\* Data Analysis → geçmişi ve mevcut durumu açıklar
-
-\* Machine Learning → geleceği tahmin eder
-
-\* Data Science → tüm süreci kapsar
-
-
-
-> Data Science, Data Analysis ve Machine Learning’i bir araya getiren üst disiplindir.
-
-
-
+> Data Science, Data Analysis ve Machine Learning'i bir araya getiren üst disiplindir.
