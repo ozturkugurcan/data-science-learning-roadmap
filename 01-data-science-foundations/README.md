@@ -1,372 +1,148 @@
-\# What is Data Science? | Veri Bilimi Nedir?
+# What is Data Science? | Veri Bilimi Nedir?
 
+## 1. Giriş
 
-
-\---
-
-
-
-\## 1. Veri Biliminin Tanımı
-
-
-
-\*\*Data Science (Veri Bilimi)\*\*, verilerden anlamlı bilgi, örüntü (\*\*pattern\*\*) ve içgörü (\*\*insight\*\*) elde etmeyi amaçlayan bir alandır.
-
-
+**Data Science (Veri Bilimi)**, verilerden anlamlı bilgi, örüntü (*pattern*) ve içgörü (*insight*) elde etmeyi amaçlayan disiplinler arası bir alandır.
 
 Bu alan şu bileşenlerin birleşiminden oluşur:
 
+- Statistics (İstatistik)
+- Programming (Programlama)
+- Data Analysis (Veri Analizi)
+- Domain Knowledge (Alan Bilgisi)
 
+> Veri bilimi, ham veriyi bilgiye ve karar desteğine dönüştürme sürecidir.
 
-\* İstatistik (\*\*Statistics\*\*)
+---
 
-\* Programlama (\*\*Programming\*\*)
+## 2. Veri Bilimi Neden Önemlidir?
 
-\* Veri analizi (\*\*Data Analysis\*\*)
+Günümüzde veri birçok kaynaktan üretilmektedir:
 
-\* Alan bilgisi (\*\*Domain Knowledge\*\*)
+- sosyal medya
+- e-ticaret
+- bankacılık sistemleri
+- sağlık verileri
+- sensörler ve IoT cihazları
 
-
-
-En basit haliyle:
-
-
-
-> Veri bilimi, ham veriyi anlamlı bilgiye ve karar desteğine dönüştürme sürecidir.
-
-
-
-\---
-
-
-
-\## 2. Veri Bilimi Neden Önemlidir?
-
-
-
-Günümüzde veri her yerde üretilmektedir:
-
-
-
-\* sosyal medya
-
-\* e-ticaret
-
-\* bankacılık
-
-\* sağlık sistemleri
-
-\* sensörler ve IoT cihazları
-
-
-
-Ancak veri tek başına değerli değildir.
-
+Ancak veri tek başına değerli değildir.  
 Değer, verinin analiz edilmesi ve doğru yorumlanması ile ortaya çıkar.
 
+Data Science şu konularda katkı sağlar:
 
+- daha doğru karar alma
+- geleceğe yönelik tahmin yapma
+- müşteri davranışlarını anlama
+- süreçleri optimize etme
 
-\*\*Data Science\*\*, kurumlara şu konularda yardımcı olur:
+---
 
+## 3. Temel Bileşenler
 
+### 3.1 Statistics
 
-\* daha doğru karar verme
+Veriyi anlamak ve yorumlamak için kullanılır:
 
-\* geleceğe yönelik tahmin yapma
+- mean (ortalama)
+- variance (varyans)
+- distribution (dağılım)
+- correlation (ilişki)
 
-\* müşteri davranışlarını anlama
+---
 
-\* süreçleri optimize etme
+### 3.2 Programming
 
-\* verimliliği artırma
+Veri ile çalışmak için kullanılır:
 
+- Python
+- R
+- SQL
 
+Amaç:
+- veri işleme
+- veri temizleme
+- model kurma
 
-\---
+---
 
+### 3.3 Data Analysis
 
+Veriyi inceleme sürecidir:
 
-\## 3. Veri Biliminin Temel Bileşenleri
+- data cleaning
+- data transformation
+- EDA (Exploratory Data Analysis)
 
+---
 
+### 3.4 Domain Knowledge
 
-Veri bilimi tek bir beceri değildir. Birden fazla alanın birleşimidir.
+Çalışılan alanı anlamaktır:
 
+- finans
+- sağlık
+- pazarlama
+- e-ticaret
 
+---
 
-\### 3.1 Statistics (İstatistik)
+## 4. Veri Bilimi Ne Yapar?
 
+Veri bilimi şu sorulara cevap arar:
 
+- Ne oldu?
+- Ne oluyor?
+- Ne olacak?
+- Ne yapmalıyız?
 
-Veriyi anlamak ve yorumlamak için kullanılır.
+---
 
+## 5. Süreç (High-Level)
 
+1. Problem Definition  
+2. Data Collection  
+3. Data Cleaning  
+4. Data Exploration  
+5. Modeling  
+6. Evaluation  
+7. Deployment  
 
-Örnek:
+---
 
+## 6. Örnek
 
+Bir e-ticaret şirketi müşterinin satın alma yapıp yapmayacağını tahmin etmek ister:
 
-\* ortalama (mean)
+- veri toplanır
+- temizlenir
+- analiz edilir
+- model kurulur
+- sonuç kullanılır
 
-\* varyans (variance)
+---
 
-\* dağılım (distribution)
+## 7. Alanlar Arası Fark
 
-\* ilişki analizi (correlation)
+| Alan | Odak |
+|------|------|
+| Data Science | Uçtan uca süreç |
+| Data Analysis | Veri yorumlama |
+| Machine Learning | Tahmin modeli |
 
+---
 
+## 8. Sık Hatalar
 
-\---
+- sadece koda odaklanmak  
+- veri temizlemeyi atlamak  
+- problemi anlamadan model kurmak  
 
+---
 
+## 9. Özet
 
-\### 3.2 Programming (Programlama)
+- Data Science veriden değer üretir  
+- Birden fazla alanın birleşimidir  
+- Amaç gerçek problemleri çözmektir  
 
-
-
-Veri ile çalışmak için kullanılır.
-
-
-
-Yaygın diller:
-
-
-
-\* Python
-
-\* R
-
-\* SQL
-
-
-
-Programlama sayesinde:
-
-
-
-\* veri işlenir
-
-\* veri temizlenir
-
-\* analiz yapılır
-
-\* model kurulur
-
-
-
-\---
-
-
-
-\### 3.3 Data Analysis (Veri Analizi)
-
-
-
-Veriyi inceleme ve anlamlandırma sürecidir.
-
-
-
-Temel adımlar:
-
-
-
-\* veri temizleme (\*\*data cleaning\*\*)
-
-\* veri dönüştürme (\*\*data transformation\*\*)
-
-\* keşifsel veri analizi (\*\*EDA - Exploratory Data Analysis\*\*)
-
-
-
-\---
-
-
-
-\### 3.4 Domain Knowledge (Alan Bilgisi)
-
-
-
-Çalışılan sektörü anlamaktır.
-
-
-
-Örnek alanlar:
-
-
-
-\* finans
-
-\* sağlık
-
-\* pazarlama
-
-\* lojistik
-
-
-
-Veri bilimci doğru analiz yapabilmek için iş problemini anlamalıdır.
-
-
-
-\---
-
-
-
-\## 4. Veri Bilimi Süreci (Genel Akış)
-
-
-
-Bir veri bilimi projesi genelde şu adımlardan oluşur:
-
-
-
-1\. Problem Definition (Problemin Tanımlanması)
-
-2\. Data Collection (Veri Toplama)
-
-3\. Data Cleaning (Veri Temizleme)
-
-4\. Data Exploration (Veriyi Keşfetme)
-
-5\. Modeling (Modelleme)
-
-6\. Evaluation (Değerlendirme)
-
-7\. Deployment (Canlıya Alma)
-
-
-
-Bu süreç, veri biliminin sadece model kurmaktan ibaret olmadığını gösterir.
-
-
-
-\---
-
-
-
-\## 5. Basit Bir Örnek
-
-
-
-\### Problem:
-
-
-
-Bir e-ticaret şirketi, müşterinin satın alma yapıp yapmayacağını tahmin etmek istiyor.
-
-
-
-\### Veri Bilimi Yaklaşımı:
-
-
-
-\* müşteri verileri toplanır
-
-\* veri temizlenir
-
-\* analiz yapılır
-
-\* model kurulur
-
-\* sonuç değerlendirilir
-
-\* karar sürecinde kullanılır
-
-
-
-\---
-
-
-
-\## 6. Data Science ve İlgili Alanlar
-
-
-
-| Alan             | Açıklama                             |
-
-| ---------------- | ------------------------------------ |
-
-| Data Science     | Veri → analiz → model → karar süreci |
-
-| Data Analysis    | Veriyi anlama ve yorumlama           |
-
-| Machine Learning | Tahmin ve modelleme                  |
-
-
-
-Önemli nokta:
-
-
-
-\* Data Analysis, Data Science'ın bir parçasıdır
-
-\* Machine Learning, Data Science içinde kullanılan bir tekniktir
-
-
-
-\---
-
-
-
-\## 7. Kullanım Alanları
-
-
-
-Veri bilimi birçok alanda kullanılır:
-
-
-
-\* öneri sistemleri (\*\*recommendation systems\*\*)
-
-\* dolandırıcılık tespiti (\*\*fraud detection\*\*)
-
-\* müşteri segmentasyonu (\*\*customer segmentation\*\*)
-
-\* satış tahmini (\*\*sales forecasting\*\*)
-
-\* sağlık analizleri
-
-
-
-\---
-
-
-
-\## 8. Sık Yapılan Hatalar
-
-
-
-\* veri bilimini sadece kod yazmak sanmak
-
-\* veri temizleme aşamasını atlamak
-
-\* problemi anlamadan model kurmak
-
-\* sadece model doğruluğuna odaklanmak
-
-\* iş tarafını göz ardı etmek
-
-
-
-\---
-
-
-
-\## 9. Kısa Özet
-
-
-
-\* Data Science, veriden anlamlı bilgi üretme sürecidir
-
-\* İstatistik, programlama ve analiz birleşimidir
-
-\* Amaç veri ile gerçek problemleri çözmektir
-
-\* Süreç, veri toplama ile başlayıp karar desteğine kadar gider
-
-
-
-> Veri bilimi, sadece veriyle çalışmak değil, veriyi kullanarak değer üretmektir.
-
-
-
+> Veri bilimi = veri + analiz + karar
