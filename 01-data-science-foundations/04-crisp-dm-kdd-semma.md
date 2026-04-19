@@ -242,7 +242,7 @@ CRISP-DM, iş problemi ile başlar ve gerçek kullanım ile biter.
 
 \- iş problemini içerir  
 
-\- tüm süreci kapsar  
+\- bütün süreci kapsar  
 
 \- gerçek projelere daha uygundur  
 
