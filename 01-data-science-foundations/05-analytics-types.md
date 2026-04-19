@@ -1,266 +1,107 @@
-\# Descriptive vs Predictive vs Prescriptive Analytics
+# Descriptive vs Predictive vs Prescriptive Analytics
 
-
-
-\## 1. Giriş
-
-
+## Giriş
 
 Veri analizi farklı seviyelerde yapılabilir.  
+Bu seviyeler, veriden ne tür sonuç elde etmek istediğimize göre değişir.
 
-Bu seviyeler, veriden ne tür bir sonuç elde etmek istediğimize göre değişir.
+Üç temel analiz türü:
 
+- Descriptive Analytics
+- Predictive Analytics
+- Prescriptive Analytics
 
+---
 
-En yaygın üç analitik türü:
+## Descriptive Analytics
 
-
-
-\- Descriptive Analytics  
-
-\- Predictive Analytics  
-
-\- Prescriptive Analytics  
-
-
-
-\---
-
-
-
-\## 2. Descriptive Analytics
-
-
-
-\*\*Descriptive Analytics\*\*, geçmişte ne olduğunu anlamaya odaklanır.
-
-
+Geçmişte ne olduğunu anlamaya odaklanır.
 
 Amaç:
 
-\- veriyi özetlemek
+- veriyi özetlemek
+- mevcut durumu açıklamak
 
-\- mevcut durumu açıklamak
+Örnek:
 
+- geçen ay satışlar ne kadardı?
+- en çok hangi ürün satıldı?
 
+Kullanılan yöntemler:
 
-\### Sorduğu soru:
+- raporlama
+- dashboard
+- grafikler
 
-\- Ne oldu?
+---
 
+## Predictive Analytics
 
-
-\### Örnek:
-
-\- geçen ay satışlar ne kadardı?
-
-\- en çok hangi ürün satıldı?
-
-\- kullanıcı sayısı ne kadar arttı?
-
-
-
-\### Kullanılan yöntemler:
-
-\- raporlama
-
-\- dashboard
-
-\- ortalama, toplam gibi metrikler
-
-\- grafikler
-
-
-
-> Descriptive Analytics = geçmişi anlamak
-
-
-
-\---
-
-
-
-\## 3. Predictive Analytics
-
-
-
-\*\*Predictive Analytics\*\*, gelecekte ne olacağını tahmin etmeye odaklanır.
-
-
+Gelecekte ne olacağını tahmin eder.
 
 Amaç:
 
-\- tahmin yapmak
+- tahmin yapmak
+- riskleri öngörmek
 
-\- riskleri öngörmek
+Örnek:
 
+- müşteri satın alma yapar mı?
+- satışlar artar mı?
 
+Kullanılan yöntemler:
 
-\### Sorduğu soru:
+- regression
+- classification
+- machine learning
 
-\- Ne olacak?
+---
 
+## Prescriptive Analytics
 
-
-\### Örnek:
-
-\- bu müşteri satın alma yapar mı?
-
-\- gelecek ay satışlar artar mı?
-
-\- hangi müşteriler sistemi terk eder?
-
-
-
-\### Kullanılan yöntemler:
-
-\- regression
-
-\- classification
-
-\- machine learning modelleri
-
-
-
-> Predictive Analytics = geleceği tahmin etmek
-
-
-
-\---
-
-
-
-\## 4. Prescriptive Analytics
-
-
-
-\*\*Prescriptive Analytics\*\*, ne yapılması gerektiğini önerir.
-
-
+Ne yapılması gerektiğini önerir.
 
 Amaç:
 
-\- karar destek sağlamak
+- karar destek sağlamak
+- en iyi aksiyonu belirlemek
 
-\- en iyi aksiyonu belirlemek
+Örnek:
 
+- hangi müşteriye kampanya yapılmalı?
+- fiyat nasıl belirlenmeli?
 
+Kullanılan yöntemler:
 
-\### Sorduğu soru:
+- optimizasyon
+- simülasyon
 
-\- Ne yapmalıyız?
+---
 
+## Karşılaştırma
 
+| Tür          | Amaç           | Soru           |
+| ------------ | -------------- | -------------- |
+| Descriptive  | Veriyi anlamak | Ne oldu?       |
+| Predictive   | Tahmin yapmak  | Ne olacak?     |
+| Prescriptive | Karar vermek   | Ne yapmalıyız? |
 
-\### Örnek:
+---
 
-\- hangi müşteriye kampanya gönderilmeli?
+## Örnek
 
-\- stok nasıl optimize edilmeli?
+Bir e-ticaret sistemi:
 
-\- hangi fiyatlandırma stratejisi kullanılmalı?
+- Descriptive → satışları analiz eder
+- Predictive → satın alma tahmini yapar
+- Prescriptive → kampanya önerir
 
+---
 
+## Özet
 
-\### Kullanılan yöntemler:
+- Descriptive → geçmiş
+- Predictive → gelecek
+- Prescriptive → aksiyon
 
-\- optimizasyon
-
-\- simülasyon
-
-\- karar algoritmaları
-
-
-
-> Prescriptive Analytics = aksiyon önermek
-
-
-
-\---
-
-
-
-\## 5. Karşılaştırma
-
-
-
-| Tür | Amaç | Soru |
-
-|----|------|------|
-
-| Descriptive | Veriyi anlamak | Ne oldu? |
-
-| Predictive | Tahmin yapmak | Ne olacak? |
-
-| Prescriptive | Karar vermek | Ne yapmalıyız? |
-
-
-
-\---
-
-
-
-\## 6. Gerçek Hayat Örneği
-
-
-
-Bir e-ticaret sistemi üzerinden düşünelim:
-
-
-
-\### Descriptive:
-
-\- geçen ay satışlar analiz edilir
-
-
-
-\### Predictive:
-
-\- hangi müşterinin satın alacağı tahmin edilir
-
-
-
-\### Prescriptive:
-
-\- hangi müşteriye kampanya yapılacağı belirlenir
-
-
-
-\---
-
-
-
-\## 7. Önemli Nokta
-
-
-
-Bu üç analiz türü birbirini tamamlar:
-
-
-
-\- önce ne olduğunu anlarsın  
-
-\- sonra ne olacağını tahmin edersin  
-
-\- en sonunda ne yapman gerektiğine karar verirsin  
-
-
-
-\---
-
-
-
-\## 8. Özet
-
-
-
-\- Descriptive → geçmiş  
-
-\- Predictive → gelecek  
-
-\- Prescriptive → aksiyon  
-
-
-
-> Veri analizi, bu üç seviyenin birleşimiyle gerçek değer üretir.
-
+> Bu üçü birlikte gerçek değer üretir.
