@@ -1,72 +1,91 @@
-# Data Science Learning Roadmap
+# Data Science Learning Journey
 
-This repository contains my structured learning journey in **Data Science, Data Analysis, KNIME, Statistics, and Machine Learning**.
+This repository documents my structured journey in **Data Science**, covering both theoretical foundations and practical implementations.
 
-The goal is to build a strong foundation starting from basic concepts and progressing toward real-world applications.
-
----
-
-## 📌 Contents
-
-* Data Science Foundations
-* KNIME
-* Statistics for Data
-* Data Analysis
-* Machine Learning
-* Projects
+The purpose of this repository is to build a strong understanding of data-driven problem solving while creating real-world projects and maintaining organized study notes.
 
 ---
 
-## 🧠 Learning Approach
+# 📚 Repository Structure
 
-* Concepts are explained from **fundamentals to advanced levels**
-* Notes include both **theoretical understanding** and **practical insights**
-* Technical terms are in English, explanations are in Turkish for deeper understanding
-
----
-
-## 🗂️ Repository Structure
-
-```
-01-data-science-foundations/
-02-knime/
-03-statistics-for-data/
-04-data-analysis/
-05-machine-learning/
-06-projects/
+```text
+01-data-science/
+02-sql/
+03-statistics/
+04-python-for-data-science/
+05-data-analysis/
+06-machine-learning/
+07-projects/
 99-resources/
 ```
 
 ---
 
-## 🚀 Learning Order
+# 🎯 Learning Goals
 
-1. Data Science Foundations
-2. KNIME Basics
-3. Data Analysis
-4. Statistics
-5. Machine Learning
-
----
-
-## 🎯 Purpose
-
-This repository is created to:
-
-* Build a solid understanding of data science concepts
-* Practice structured thinking
-* Create a professional GitHub portfolio
+- Build a strong foundation in Data Science
+- Develop analytical thinking skills
+- Learn industry-standard tools and workflows
+- Practice with real datasets
+- Create end-to-end projects
+- Build a professional GitHub portfolio
 
 ---
 
-## 🛠️ Tools & Technologies
+# 🧠 Learning Approach
 
-* KNIME
-* Python (later stages)
-* SQL (later stages)
+This repository follows a structured learning methodology:
+
+1. Learn the theoretical concepts
+2. Practice with small examples
+3. Apply knowledge to mini-projects
+4. Build real-world projects
+5. Document the learning process
+
+Notes are written in Turkish for deeper understanding, while technical concepts and terminology are preserved in English.
 
 ---
 
-## 📌 Note
+# 🛠️ Technologies & Tools
 
-This is a continuously growing repository. New topics and projects will be added over time.
+- SQL
+- Python
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+---
+
+# 📂 Repository Contents
+
+## 01 - Data Science
+Fundamental concepts of data science, workflows, and problem-solving approaches.
+
+## 02 - SQL
+SQL fundamentals, querying, filtering, joins, aggregations, and analytical queries.
+
+## 03 - Statistics
+Statistics, probability, hypothesis testing, distributions, and statistical thinking for data analysis.
+
+## 04 - Python for Data Science
+Python fundamentals and libraries used in data science workflows.
+
+## 05 - Data Analysis
+Exploratory Data Analysis (EDA), data cleaning, visualization, and practical dataset analysis.
+
+## 06 - Machine Learning
+Machine learning fundamentals, algorithms, model evaluation, and implementations.
+
+## 07 - Projects
+Mini-projects and end-to-end data science projects.
+
+---
+
+# 🚀 Progress Tracking
+
+This repository is continuously updated as I progress through my learning journey.
+
+New notes, examples, and projects will be added over time.
