@@ -55,31 +55,37 @@ Notes are written in Turkish for deeper understanding, while technical concepts 
 - Matplotlib
 - Seaborn
 - Scikit-learn
-- Jupyter Notebook
 
 ---
 
 # 📂 Repository Contents
 
 ## 01 - Data Science
+
 Fundamental concepts of data science, workflows, and problem-solving approaches.
 
 ## 02 - SQL
+
 SQL fundamentals, querying, filtering, joins, aggregations, and analytical queries.
 
 ## 03 - Statistics
+
 Statistics, probability, hypothesis testing, distributions, and statistical thinking for data analysis.
 
 ## 04 - Python for Data Science
+
 Python fundamentals and libraries used in data science workflows.
 
 ## 05 - Data Analysis
+
 Exploratory Data Analysis (EDA), data cleaning, visualization, and practical dataset analysis.
 
 ## 06 - Machine Learning
+
 Machine learning fundamentals, algorithms, model evaluation, and implementations.
 
 ## 07 - Projects
+
 Mini-projects and end-to-end data science projects.
 
 ---
